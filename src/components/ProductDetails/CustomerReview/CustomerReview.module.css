@@ -1,0 +1,22 @@
+.container{
+    margin-top: 50px;
+}
+
+.headerText{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.reviewBox{
+    border: 1px solid #d1d5db;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.nameAndDateFlexBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

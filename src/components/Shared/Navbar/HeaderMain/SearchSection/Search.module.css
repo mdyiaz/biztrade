@@ -1,0 +1,35 @@
+.flexBox {
+    display: flex;
+     align-items: center;
+     margin-top: 5px;
+     margin-bottom: 5px;
+}
+.customInput {
+    border: 1px solid #F88216;
+    height: 36px;
+    width: 540px;
+    font-size: 12px;
+    padding: 0 10px;
+    color: #000000;
+    border-radius: 3px 0 0 3px;
+}
+
+.customInput::placeholder {
+    color: #CCCCCC;
+}
+
+.searchBtn {
+  background-color: #F88216;
+  width: 68px;
+  height: 36px;
+  border-radius: 0 3px 3px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBtn p {
+  color: #FFFFFF;
+  font-size: 12px; 
+  margin: 0; 
+}

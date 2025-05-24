@@ -1,0 +1,21 @@
+.container {
+    max-width: 1280px;
+    margin: 50px auto 0;
+    padding: 0 20px;
+}
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+}
+
+.firstGridItem {
+    grid-column: span 1;
+}
+
+.secondGridItem {
+    grid-column: span 2;
+}

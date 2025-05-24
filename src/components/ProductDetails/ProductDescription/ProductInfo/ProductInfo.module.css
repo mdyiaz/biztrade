@@ -1,0 +1,72 @@
+.container {
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.headerText {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.productMetaGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    font-size: 0.875rem;
+}
+
+.labelText {
+    color: #4b5563;
+}
+
+.valueText {
+    margin-left: 0.5rem;
+    font-weight: 500;
+}
+
+
+.customHr {
+    border: none;
+    border-top: 1px solid #d1d5db;
+    margin: 1rem 0;
+}
+
+
+
+
+
+.infoFlex {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.infoText {
+    font-size: 14px;
+}
+
+.iconBlue {
+    width: 20px;
+    height: 20px;
+    color: #2563eb;
+
+}
+
+.iconGreen {
+    width: 20px;
+    height: 20px;
+    color: #16a34a;
+
+}
+
+.iconRed {
+    width: 20px;
+    height: 20px;
+    color: #dc2626;
+}

@@ -1,0 +1,105 @@
+.container {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.headerText {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.leftContent {
+    grid-column: span 2;
+}
+
+
+.rectengular {
+    height: 100px;
+    width: 180px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectengularImage {
+    height: 36px;
+    width: 30px;
+}
+
+.rectengularFlexBox {
+    display: flex;
+    gap: 10px;
+}
+
+.rectengularText {
+    color: #000000;
+    font-size: 12px;
+}
+
+
+.rfqFlexBox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.rfqNumber {
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.rfqText {
+    color: #000000;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.buyerCard {
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.buyerImage {
+    width: 49px;
+    height: 49px;
+}
+
+.buyerCountry {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.buyerTitle {
+    color: #000000;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.buyerCardFlexBox {
+    display: flex;
+    gap: 20px;
+}
+
+.buyerShortDescription {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 15px;
+}

@@ -1,0 +1,111 @@
+.categorySection {
+    margin-bottom: 40px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.sliderWrapper {
+    position: relative;
+}
+
+.sliderContainer {
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.categoryTitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+/* Navigation Arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.arrow:hover {
+    background: #f8f9fa;
+    border-color: #bbb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.arrowLeft {
+    left: -20px;
+}
+
+.arrowRight {
+    right: -20px;
+}
+
+.arrowDisabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.keen-slider .keen-slider__slide {
+    display: flex;
+    align-items: stretch;
+}
+
+.categorySection:not(:last-child) {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+}
+
+/* Responsive adjustments for arrows */
+@media (max-width: 768px) {
+    .arrow {
+        width: 35px;
+        height: 35px;
+    }
+
+    .arrowLeft {
+        left: -15px;
+    }
+
+    .arrowRight {
+        right: -15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .arrow {
+        width: 30px;
+        height: 30px;
+    }
+
+    .arrowLeft {
+        left: -10px;
+    }
+
+    .arrowRight {
+        right: -10px;
+    }
+
+    .dots {
+        margin-top: 15px;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+    }
+}

@@ -1,0 +1,32 @@
+.container {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    width: 20%;
+
+}
+
+.headerText {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.flexBox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.categoryText {
+    color: #000000;
+    font-size: 14px;
+}
+
+.viewAllCat {
+    color: #FF6600;
+    font-size: 14px;
+    text-decoration: underline;
+}

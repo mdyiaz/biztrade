@@ -1,0 +1,53 @@
+.gridContainer {
+     display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 40px;
+  width: 100% ;
+}
+
+.gridContainer > :first-child {
+  grid-column: span 2; 
+}
+
+.imageOne {
+    border-radius: 5px;
+    height: 359px;
+    width: 100%;
+}
+
+
+
+.backgroundImageContainer {
+    background-image: url('/images/promotion/promotionTwo.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    height: 163px;
+    width: 100%;
+    position: relative;
+    color: #000000;
+    font-size: 14px;
+    padding: 20px;
+  
+}
+
+.exploreButton {
+    background-color: transparent;
+    border: 1px solid #265C81;
+    color: #265C81;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.exploreButton strong {
+    font-weight: 700;
+}
+
+.backgroundImageContainerSecond {
+    background-image: url('/images/promotion/promotionThree.jpg'); 
+    margin-top: 30px;
+}

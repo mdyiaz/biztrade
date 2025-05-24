@@ -1,0 +1,56 @@
+.container {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+.featuresSection {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+    position: relative;
+}
+
+.featureCard {
+    position: relative;
+    padding-right: 10px;
+}
+
+
+.featureCard:not(:nth-child(5))::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 50px;
+    background-color: #E0E0E0;
+}
+
+
+.cardImage {
+    width: 48px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cardTitle {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.cardShortDescription {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+}

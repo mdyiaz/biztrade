@@ -1,0 +1,33 @@
+.mainDiv {
+    background-color: #FAFAFA;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 5px auto;
+  padding: 10px 20px; 
+}
+
+.menubarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+
+}
+
+.flexRow {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.menuText {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.divider {
+    color: #D9D9D9;
+}

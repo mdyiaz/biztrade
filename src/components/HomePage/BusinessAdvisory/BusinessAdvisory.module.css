@@ -1,0 +1,68 @@
+.headerText{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0
+}
+
+.gridWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+.card{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cardImage{
+    width: 49px;
+    height: 49px;
+}
+
+.cardName{
+    color: #000000;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.cardShortDescription{
+    color: #000000;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.cardPackage{
+    background-color: #E2E2E2;
+    margin-top: 10px;
+    width: 106px;
+    padding: 5px 0;
+    border-radius: 25px;
+}
+
+.cardPackageText{
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cardType{
+    margin-top: 10px;
+    width: 140px;
+    padding: 5px 0;
+    border-radius: 25px;
+}
+
+.cardTypeText{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}

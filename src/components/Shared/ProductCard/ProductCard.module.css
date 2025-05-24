@@ -1,0 +1,86 @@
+.card {
+    margin-top: 20px;
+    border: 1px solid #E9ECED;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.imageDiv {
+    background-color: #F0F0F0;
+    border-radius: 5px;
+}
+
+.productImage {
+    width: 98px;
+    height: 121px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productName {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.moq {
+    color: #000000;
+    font-size: 8px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+
+.vectorDiv {
+    background-color: #3BEBF6;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.productVector {
+    width: 10px;
+    height: 10px;
+}
+
+.cardFooterFlex {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brandFlex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.brandName {
+    color: #000000;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.enquiryDiv {
+    background-color: #6C63FF;
+    width: 75px;
+    height: 23px;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.enquiryText {
+    color: #FFFFFF;
+    font-size: 7px;
+    font-weight: 400;
+    text-align: center;
+}
